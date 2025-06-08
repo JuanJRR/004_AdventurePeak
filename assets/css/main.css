@@ -1,6 +1,7 @@
 body {
     display: grid;
     min-height: 100dvh;
+    /* min-width: 100dvw; */
     grid-template-rows: auto 1fr auto;
 
     background-image:
@@ -10,7 +11,7 @@ body {
     background-repeat: no-repeat;
     background-position: top center;
 
-    margin: 2rem 4rem;
+    margin: 1rem 2rem;
 
     font-family: "Exo 2", sans-serif;
 }
